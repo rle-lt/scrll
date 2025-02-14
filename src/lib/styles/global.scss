@@ -1,0 +1,11 @@
+@use './_fonts.scss';
+
+html {
+	font-weight: 400;
+	font-family: var(--font-primary);
+	scrollbar-width: thin;
+
+	&.nav {
+		overflow: hidden;
+	}
+}

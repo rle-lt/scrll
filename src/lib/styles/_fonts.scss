@@ -1,0 +1,41 @@
+// ------------------------------------
+// All @font-face declarations here
+// ------------------------------------
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('/fonts/HelveticaNeue/HelveticaNeueBlack.otf') format('opentype');
+	font-display: swap;
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('/fonts/HelveticaNeue/HelveticaNeueMedium.otf') format('opentype');
+	font-display: swap;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('/fonts/HelveticaNeue/HelveticaNeueRoman.otf') format('opentype');
+	font-display: swap;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('/fonts/HelveticaNeue/HelveticaNeueSemiBold.otf') format('opentype');
+	font-display: swap;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('/fonts/HelveticaNeue/HelveticaNeueBold.otf') format('opentype');
+	font-display: swap;
+	font-weight: 700;
+}
+
+:root {
+	--font-primary: 'HelveticaNeue';
+}
