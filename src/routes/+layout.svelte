@@ -13,5 +13,8 @@
 <main class={cn(`theme-${$themeStore}`, 'layout', className)}>{@render children()}</main>
 
 <style lang="scss">
-	
+	.layout {
+		background-color: var(--dark);
+		color: var(--dark);
+	}
 </style>
