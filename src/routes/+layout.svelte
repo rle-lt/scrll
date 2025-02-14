@@ -4,17 +4,19 @@
 
 	import cn from 'clsx';
 
-	let className = '';
-	export { className as class };
-
 	let { children } = $props();
 </script>
 
-<main class={cn(`theme-${$themeStore}`, 'layout', className)}>{@render children()}</main>
+<main class={cn(`theme-${$themeStore}`, 'layout')}>{@render children()}</main>
 
 <style lang="scss">
 	.layout {
-		background-color: var(--dark);
-		color: var(--dark);
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+
+		background-color: var(--theme-primary);
+		color: var(--theme-secondary);
+		
 	}
 </style>

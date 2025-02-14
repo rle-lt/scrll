@@ -1,12 +1,16 @@
-@use './_fonts.scss';
-
+@use 'fonts' as *;
+@use 'themes' as *;
 html {
 	font-weight: 400;
 	font-family: var(--font-primary);
+	font-size: 14px;
+	
+	
 	scrollbar-width: thin;
-
 	&.nav {
 		overflow: hidden;
 	}
-	
+}
+body {
+	margin: 0px;
 }

@@ -1,3 +1,7 @@
+@use 'sass:map';
+@use 'sass:color';
+@use 'colors' as *;
+
 $themes: (
 	'light': (
 		'primary': map.get($colors, 'white'),
