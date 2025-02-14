@@ -11,6 +11,7 @@
 		margin: 0px auto;
 		padding: 88px 8px;
 		max-width: 496px;
+		text-align: justify;
 		display: grid;
 		align-items: center;
 	}
