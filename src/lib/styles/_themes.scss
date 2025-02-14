@@ -1,0 +1,18 @@
+$themes: (
+	'light': (
+		'primary': map.get($colors, 'white'),
+		'secondary': map.get($colors, 'black')
+	),
+	'dark': (
+		'primary': map.get($colors, 'black'),
+		'secondary': map.get($colors, 'white')
+	)
+);
+
+@each $name, $theme in $themes {
+	.theme-#{$name} {
+		@each $name, $color in $theme {
+			--theme-#{$name}: #{$color};
+		}
+	}
+}
